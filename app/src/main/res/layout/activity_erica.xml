@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:alpha="1"
+    android:background="#46C7C7"
+    tools:context=".erica">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/msg"
+        android:text="09286546318"
+        android:textSize="30sp"/>
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:hint="Message"
+        android:textSize="23sp"
+        android:layout_marginTop="10dp"
+        android:gravity="top"/>
+    <Button
+        android:background="#FFFFFF"
+        android:onClick="btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textSize="20sp"
+        android:text="SEND"/>
+</LinearLayout>
